@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+</head>
+<body onload="initializeGallery()">
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+    
+    <!-- Sáu ảnh từ nguồn Picsum -->
+    <img class="preview" alt="Nature - Calm River" 
+         src="https://picsum.photos/id/1015/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Nature - Misty Forest" 
+         src="https://picsum.photos/id/1003/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Nature - Mountain Lake" 
+         src="https://picsum.photos/id/1016/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Nature - Sunset Over Hills" 
+         src="https://picsum.photos/id/1025/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Nature - Blooming Flowers" 
+         src="https://picsum.photos/id/1039/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+    <img class="preview" alt="Nature - Rolling Hills" 
+         src="https://picsum.photos/id/1043/600/400" 
+         onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+</body>
+</html>
